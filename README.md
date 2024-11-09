@@ -34,16 +34,26 @@ Comparing lookup performance between list and set data structures.
 - Memory trade-offs for better performance
 - 98% performance improvement
 
+### 3. String Concatenation Methods
+Comparing different approaches for string concatenation to understand performance implications.
+
+**Key Learning Points:**
+
+- join() method is significantly faster than + operator
+- Memory allocation: + operator creates new strings each iteration
+- Time complexity: + operator O(n²) vs join() O(n)
+- String formatting methods (f-strings) are optimized for modern Python
+- 95% performance improvement using join()
+
 ## Coming Soon 🔜
 
 Planning to add more optimization examples including:
-1. String Concatenation Methods
-2. Generator vs List
-3. Built-in Functions Performance
-4. Memory Optimization Techniques
-5. Multi-threading vs Multi-processing
-6. NumPy Array Operations
-7. Dictionary Performance Tips
+1. Generator vs List
+2. Built-in Functions Performance
+3. Memory Optimization Techniques
+4. Multi-threading vs Multi-processing
+5. NumPy Array Operations
+6. Dictionary Performance Tips
 
 ## Getting Started
 1. Clone the repository:
